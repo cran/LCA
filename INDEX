@@ -1,0 +1,10 @@
+LCA Localised Co-Dependency Analysis
+fitPTLmodel Obtain Polynomial-Tail Laplace distribution parameters based on a numeric dataset
+dPTL Probability density function for Polynomial-Tail Laplace distribution
+pPTL Cumulative density function for Polynomial-Tail Laplace distribution
+LCD Obtain Localised Co-Dependency estimate for a pair of features observed across two objects from a dataset
+estimateB function to get maximum-likelihood estimate of PTL parameter beta
+evaluateDiffSignificance function to obtain significance estimate for a pair of clique members that can be used to calculate LCD
+getPTLExpectedCounts function to calculate binned distribution from PTL model
+getPTLparams function to obtain nls estimates for PTL distribution parameters, given a pair of objects from a dataset
+predictPTLparams function to predict PTL parameters given a dataset and 
