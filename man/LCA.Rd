@@ -20,6 +20,7 @@ adjust.method="BH",comparison.alpha=0.05)}
 }
 \author{Ed Curry \email{e.curry@imperial.ac.uk}}
 \examples{
+suppressWarnings(RNGversion("3.5.0"))
 ## create a data matrix
 
 x <- array(runif(1200),dim=c(40,12))
